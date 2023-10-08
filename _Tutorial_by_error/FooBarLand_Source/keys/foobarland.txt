@@ -1,0 +1,10 @@
+Authority:  foobarland
+Creation:   08.10.2023 11:45:58 (by 11700K\mikel)
+
+== PRIVATE KEY ==
+File: P:\_Tutorial_by_error\FooBarLand_Source\keys\foobarland.biprivatekey
+MD5: fcba8c89d3cc87b04cafc1cfeda14b55
+== PUBLIC KEY ==
+File: P:\_Tutorial_by_error\FooBarLand_Source\keys\foobarland.bikey
+MD5: 15dfe47b254fe673b4342d1443cce939
+

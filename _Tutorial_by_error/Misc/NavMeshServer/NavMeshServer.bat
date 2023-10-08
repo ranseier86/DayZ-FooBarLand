@@ -1,0 +1,1 @@
+DayZServer_x64.exe "-config=serverDZFooBarLand.cfg" "-mod=@FooBarLand" -startNavMeshDataServer
