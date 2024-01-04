@@ -1,3 +1,5 @@
+your default init.c should look like this https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/files/init.c
+
 edit DayZServer\mpmissions\dayzOffline.rheingau\init.c
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/initcgetceapi.png">
 
