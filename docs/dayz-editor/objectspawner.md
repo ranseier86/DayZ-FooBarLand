@@ -30,7 +30,9 @@ save your file where ever you like
 
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/examplefile.jpg">
 
-you can now close the DayZ-Editor
+when you get a green message like this you can close the DayZ-Editor
+
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/saved.jpg">
 
 create a folder ***"custom"*** (or whatever you like) in your mission folder
 
