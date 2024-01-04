@@ -1,3 +1,5 @@
+DayZ-Rheingau Discord: https://discord.gg/rguhT6HHD7
+
 Official article for **DayZ Object Spawner** https://community.bistudio.com/wiki/DayZ:Object_Spawner
 
 # known issues
