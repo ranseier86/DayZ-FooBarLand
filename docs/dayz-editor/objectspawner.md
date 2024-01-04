@@ -44,6 +44,8 @@ move your saved file in this folder
 
 edit ***cfggameplay.json*** inside your mission folder
 
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/cfggameplayjson.png">
+
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/cfggameplayjsonedit.png">
 
 run your server
