@@ -1,63 +1,57 @@
-Official article for **DayZ Central Economy setup for custom terrains** https://community.bistudio.com/wiki/DayZ:Central_Economy_setup_for_custom_terrains
+Official article for **DayZ Object Spawner** https://community.bistudio.com/wiki/DayZ:Object_Spawner
 
-# mapgrouppos.xml
-contains all positions of your houses or spawnable objects like trains, wrecks etc.
-
-# mapgroupcluster.xml
-contains all positions of your environment objects like fruit trees etc.
-
-# generate mapgrouppos and mapgroupcluster
-your default init.c should look like this https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/ce/files/init.c and should be located in something like this **DayZServer\mpmissions\dayzOffline.rheingau\init.c**
-
-edit this file and add the two lines containing GetCEApi() as shown
-<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/ce/img/initcgetceapi.png">
-
+find your serverDZ.cfg (or your custom serverDZ.cfg) in your DayZ server root and add ***"enableCfgGameplayFile = 1;"*** as shown
 ```
-void main()
-{
-	//INIT ECONOMY--------------------------------------
-	Hive ce = CreateHive();
-	if ( ce )
-		ce.InitOffline();
-	
-	GetCEApi().ExportProxyData("4096 0 4096", 8192);	// standard map groups (buildings) export, terrain center and radius needs to be specified
-	GetCEApi().ExportClusterData();						// cluster-type map groups export (fruit trees etc.)
+enableCfgGameplayFile = 1;
 ```
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/serverconfig.png">
 
-run your local server and wait until it is done loading.
+start the official DayZ Launcher and install a mod called "DayZ-Editor". enabled the mod and the map you want to edit. in this example we are using "Rheingau" as map. hit "play" to start DayZ.
 
-<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/ce/img/server.png">
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/dayzlauncher.png">
 
-you now find a folder "export" inside your "storage" folder.
+after the editor loaded you can click "open editor" and select your map.
 
-<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/ce/img/export.png">
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/editormenu.png">
 
-select those two files mapgroupcluster.xml and mapgrouppos.xml 
+find a location you want to edit
 
-<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/ce/img/xmlfiles.png">
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/empty.jpg">
 
-and move them to your mission root
+add some object. we are using a garage in this case
 
-<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/ce/img/export2mission.png">
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/garage.jpg">
 
-you can stop the local server.
+export your changes via file > export > export to objectspawner.json
 
-if you like you can keep the GetCEApi commands by commenting them out. do not keep those commands active in a production environment
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/exportmenu.jpg">
 
-<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/ce/img/initcgetceapicomment.png">
+save your file where ever you like
 
-```
-void main()
-{
-	//INIT ECONOMY--------------------------------------
-	Hive ce = CreateHive();
-	if ( ce )
-		ce.InitOffline();
-	
-	//GetCEApi().ExportProxyData("4096 0 4096", 8192);	// standard map groups (buildings) export, terrain center and radius needs to be specified
-	//GetCEApi().ExportClusterData();						// cluster-type map groups export (fruit trees etc.)
-```
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/examplefile.jpg">
 
-restart your server to see the effect
+when you get a green message like this you can close the DayZ-Editor
 
-<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/ce/img/server.png">
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/saved.jpg">
+
+create a folder ***"custom"*** (or whatever you like) in your mission folder
+
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/customfolder.png">
+
+move your saved file in this folder
+
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/custominside.png">
+
+edit ***cfggameplay.json*** inside your mission folder
+
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/cfggameplayjson.png">
+
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/cfggameplayjsonedit.png">
+
+run your server
+
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/server.png">
+
+enjoy your objects
+
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/finish.jpg">
