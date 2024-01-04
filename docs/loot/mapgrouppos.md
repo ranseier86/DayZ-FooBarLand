@@ -1,3 +1,6 @@
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/initcgetceapi.png">
+
+
 DayZServer\mpmissions\dayzOffline.chernarusplus
 
 void main()
