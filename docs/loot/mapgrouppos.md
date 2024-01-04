@@ -7,7 +7,7 @@ contains all positions of your environment objects like fruit trees etc.
 # generate mapgrouppos and mapgroupcluster
 your default init.c should look like this https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/files/init.c and should be located in something like this **DayZServer\mpmissions\dayzOffline.rheingau\init.c**
 
-edit this file
+edit this file and add the two lines containing GetCEApi() as shown
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/initcgetceapi.png">
 
 ```
