@@ -1,5 +1,11 @@
 Official article for **DayZ Object Spawner** https://community.bistudio.com/wiki/DayZ:Object_Spawner
 
+# known issues
+
+placed animals or infected do not move or interact
+
+# adding objects to your server
+
 find your serverDZ.cfg (or your custom serverDZ.cfg) in your DayZ server root and add ***"enableCfgGameplayFile = 1;"*** as shown
 ```
 enableCfgGameplayFile = 1;
