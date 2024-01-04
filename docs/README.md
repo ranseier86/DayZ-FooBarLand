@@ -1,5 +1,6 @@
 # DayZ-FooBarLand
 Tutorial for DayZ mapping
+
 Discord: https://discord.gg/rguhT6HHD7
 
 ## CE
