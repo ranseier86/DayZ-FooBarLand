@@ -1,4 +1,4 @@
-<img src="[https://github.com/ranseier86/DayZ-FooBarLand/blob/main/_Tutorial_by_error/docs/loot/img/initcgetceapi.png](https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/initcgetceapi.png)">
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/initcgetceapi.png">
 
 
 DayZServer\mpmissions\dayzOffline.chernarusplus
