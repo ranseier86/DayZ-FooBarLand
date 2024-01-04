@@ -54,6 +54,15 @@ edit ***cfggameplay.json*** inside your mission folder
 
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/cfggameplayjson.png">
 
+objectSpawnersArr is the array of file to be loaded at server start. you can add multiple files by comma seperation. this example shows two file to be loaded.
+```
+"objectSpawnersArr": ["custom\\Lights.json", "custom\\Example.json"],
+```
+and this example shows just one file to be loaded
+```
+"objectSpawnersArr": ["custom\\Example.json"],
+```
+
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/cfggameplayjsonedit.png">
 
 run your server
