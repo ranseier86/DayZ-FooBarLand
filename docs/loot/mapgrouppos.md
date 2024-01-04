@@ -1,7 +1,12 @@
+DayZServer\mpmissions\dayzOffline.rheingau\init.c
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/initcgetceapi.png">
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/initcgetceapicomment.png">
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/export.png">
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/xmlfiles.png">
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/export2mission.png">
 
 
-DayZServer\mpmissions\dayzOffline.chernarusplus
+
 
 void main()
 {
