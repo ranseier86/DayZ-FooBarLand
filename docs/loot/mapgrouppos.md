@@ -1,11 +1,14 @@
-DayZServer\mpmissions\dayzOffline.rheingau\init.c
+edit DayZServer\mpmissions\dayzOffline.rheingau\init.c
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/initcgetceapi.png">
-<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/initcgetceapicomment.png">
+run your local server and wait until it is done loading. you now find a folder "export" inside your "storage" folder.
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/export.png">
+select those two files mapgroupcluster.xml and mapgrouppos.xml 
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/xmlfiles.png">
+and move them to your mission root
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/export2mission.png">
-
-
+you can stop the local server.
+if you like you can keep the GetCEApi commands by commenting them out. do not keep those commands active in a production environment
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/initcgetceapicomment.png">
 
 
 void main()
