@@ -11,8 +11,8 @@ void main()
 	if ( ce )
 		ce.InitOffline();
 	
-	//GetCEApi().ExportProxyData("4096 0 4096", 8192);	// standard map groups (buildings) export, terrain center and radius needs to be specified
-	//GetCEApi().ExportClusterData();						// cluster-type map groups export (fruit trees etc.)
+	GetCEApi().ExportProxyData("4096 0 4096", 8192);	// standard map groups (buildings) export, terrain center and radius needs to be specified
+	GetCEApi().ExportClusterData();						// cluster-type map groups export (fruit trees etc.)
 ```
 
 run your local server and wait until it is done loading. you now find a folder "export" inside your "storage" folder.
@@ -32,4 +32,16 @@ you can stop the local server.
 if you like you can keep the GetCEApi commands by commenting them out. do not keep those commands active in a production environment
 
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/initcgetceapicomment.png">
+
+```
+void main()
+{
+	//INIT ECONOMY--------------------------------------
+	Hive ce = CreateHive();
+	if ( ce )
+		ce.InitOffline();
+	
+	GetCEApi().ExportProxyData("4096 0 4096", 8192);	// standard map groups (buildings) export, terrain center and radius needs to be specified
+	GetCEApi().ExportClusterData();						// cluster-type map groups export (fruit trees etc.)
+```
 
