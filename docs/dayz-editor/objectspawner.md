@@ -50,4 +50,4 @@ run your server
 
 enjoy your objects
 
-<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/finish.png">
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/finish.jpg">
