@@ -15,7 +15,11 @@ void main()
 	GetCEApi().ExportClusterData();						// cluster-type map groups export (fruit trees etc.)
 ```
 
-run your local server and wait until it is done loading. you now find a folder "export" inside your "storage" folder.
+run your local server and wait until it is done loading.
+
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/server.png">
+
+you now find a folder "export" inside your "storage" folder.
 
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/export.png">
 
@@ -45,3 +49,6 @@ void main()
 	GetCEApi().ExportClusterData();						// cluster-type map groups export (fruit trees etc.)
 ```
 
+restart your server to see the effect
+
+<img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/loot/img/server.png">
