@@ -1,3 +1,5 @@
+Official article for **DayZ Central Economy setup for custom terrains** https://community.bistudio.com/wiki/DayZ:Central_Economy_setup_for_custom_terrains
+
 # mapgrouppos.xml
 contains all positions of your houses or spawnable objects like trains, wrecks etc.
 
