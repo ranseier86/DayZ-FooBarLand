@@ -52,8 +52,8 @@ void main()
 	if ( ce )
 		ce.InitOffline();
 	
-	GetCEApi().ExportProxyData("4096 0 4096", 8192);	// standard map groups (buildings) export, terrain center and radius needs to be specified
-	GetCEApi().ExportClusterData();						// cluster-type map groups export (fruit trees etc.)
+	//GetCEApi().ExportProxyData("4096 0 4096", 8192);	// standard map groups (buildings) export, terrain center and radius needs to be specified
+	//GetCEApi().ExportClusterData();						// cluster-type map groups export (fruit trees etc.)
 ```
 
 restart your server to see the effect
