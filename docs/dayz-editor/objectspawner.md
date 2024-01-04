@@ -1,6 +1,6 @@
 Official article for **DayZ Object Spawner** https://community.bistudio.com/wiki/DayZ:Object_Spawner
 
-find you serverDZ.cfg (or your custom serverDZ.cfg) in your DayZ server root and add ***"enableCfgGameplayFile = 1;"*** as shown
+find your serverDZ.cfg (or your custom serverDZ.cfg) in your DayZ server root and add ***"enableCfgGameplayFile = 1;"*** as shown
 ```
 enableCfgGameplayFile = 1;
 ```
