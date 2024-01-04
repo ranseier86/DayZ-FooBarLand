@@ -62,6 +62,7 @@ and this example shows just one file to be loaded
 ```
 "objectSpawnersArr": ["custom\\Example.json"],
 ```
+i am not sure right now if it is necessary to use double backslash for directory seperation but in my case it works with double backslash
 
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/cfggameplayjsonedit.png">
 
