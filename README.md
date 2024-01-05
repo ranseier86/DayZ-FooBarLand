@@ -1,5 +1,5 @@
-# DayZ-FooBarLand
-Tutorial for DayZ mapping
+# DayZ-Rheingau
+github for DayZ-Rheingau for e.g. tracking issues. Check out https://www.dayz-rheingau.de/ to get the map. Also some tutorials for DayZ mapping
 
 https://discord.gg/rguhT6HHD7
 
