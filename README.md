@@ -1,5 +1,5 @@
 # DayZ-Rheingau
-github for DayZ-Rheingau for e.g. tracking issues. Check out https://www.dayz-rheingau.de/ to get the map. Also some tutorials for DayZ mapping
+github for DayZ-Rheingau for e.g. tracking issues. Also some tutorials for DayZ mapping. Check out https://www.dayz-rheingau.de/ to get the map.
 
 Discord: https://discord.gg/rguhT6HHD7
 
