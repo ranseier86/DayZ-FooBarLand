@@ -4,4 +4,4 @@ Bohemia github https://github.com/BohemiaInteractive/DayZ-Central-Economy/tree/m
 
 Online Guide https://forums.dayz.com/topic/245334-ce-editor-the-complete-guide/
 
-Rheingau Example https://github.com/ranseier86/DayZ-FooBarLand/docs/ce/files/economy.zip
+Rheingau Example https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/ce/files/economy.zip
