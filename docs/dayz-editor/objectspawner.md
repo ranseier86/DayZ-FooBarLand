@@ -1,4 +1,12 @@
+DayZ-Rheingau Discord: https://discord.gg/rguhT6HHD7
+
 Official article for **DayZ Object Spawner** https://community.bistudio.com/wiki/DayZ:Object_Spawner
+
+# known issues
+
+placed animals or infected do not move or interact
+
+# adding objects to your server
 
 find your serverDZ.cfg (or your custom serverDZ.cfg) in your DayZ server root and add ***"enableCfgGameplayFile = 1;"*** as shown
 ```
@@ -45,6 +53,16 @@ move your saved file in this folder
 edit ***cfggameplay.json*** inside your mission folder
 
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/cfggameplayjson.png">
+
+objectSpawnersArr is the array of files to be loaded at server start. you can add multiple files by comma seperation. this example shows two file to be loaded.
+```
+"objectSpawnersArr": ["custom\\Lights.json", "custom\\Example.json"],
+```
+and this example shows just one file to be loaded
+```
+"objectSpawnersArr": ["custom\\Example.json"],
+```
+i am not sure right now if it is necessary to use double backslash for directory seperation but in my case it works with double backslash
 
 <img src="https://github.com/ranseier86/DayZ-FooBarLand/blob/main/docs/dayz-editor/img/cfggameplayjsonedit.png">
 
