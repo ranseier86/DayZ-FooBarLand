@@ -4,7 +4,9 @@ Tutorial for DayZ mapping
 https://discord.gg/rguhT6HHD7
 
 # support
-if this helped you please consider supporting me at https://patreon.com/DayZRheingau
+if this helped you please consider supporting me
+- https://www.paypal.com/donate/?hosted_button_id=MUBZ76TMPCGUU 
+- https://patreon.com/DayZRheingau
 
 # content
 this tutorial template contains...
